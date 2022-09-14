@@ -2,14 +2,31 @@ body{
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+.cursor{
+  cursor: pointer;
+}
 .footer{
   text-align: center;
-  margin: 50px;
+  padding: 50px;
+  background-color:#FFFFCC;
+  margin-top: 40px;
 }
 
 .form-style input[type="submit"] {
-  color: red;
+  background-color: #FF9999;
+  border-radius: 6px;
+  border: 2px solid #FF9999;
+  color: black;
+  text-align: center;
+  padding: 10px 20px;
+
+}
+
+.form-style input [type="submit"]:hower {
+  background-color: #FF6666;
+  border-radius: 6px;
+  border: 2px solid #FF6666;
+  color: black;
   text-align: center;
   padding: 10px 20px;
 

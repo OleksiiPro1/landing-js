@@ -2,6 +2,9 @@
 <html>
 <head>
 	<title>Landing page</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.3/jquery.scrollTo.min.js"></script>
+
 </head>
 <body>
 
@@ -16,10 +19,10 @@
 	<img class="style-img" src="https://www.shareicon.net/data/256x256/2015/11/03/666191_sign_512x512.png" width="80px" height="80px">
 	</div>
 	<ul>
-		<li id="link-to-one">Main</li>
-		<li id="link-to-two">Rooms</li>
-		<li id="link-to-three">About us</li>
-		<li id="link-to-four">Contacts</li>
+		<li class="cursor" id="link-to-one">Main</li>
+		<li class="cursor" id="link-to-two">Rooms</li>
+		<li class="cursor" id="link-to-three">About us</li>
+		<li class="cursor" id="link-to-footer">Footer</li>
 	</ul>
 	<a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
 	<i class="fa fa-bars"></i>
@@ -70,19 +73,20 @@
 
 </div>
 
-<hr>
-
-<div class="footer">
-<p>2022</p>
-</div>
-
 <div id="one"></div>
 <div id="two"></div>
 <div id="three"></div>
 <div id="four"></div>
 
+<div class="footer" id="footer">
+<p>2022</p>
+</div>
+
+
+
 
 <link href="style.css" rel="stylesheet" type="text/css">
+<Script src="script.js"></Script>
 
 </body>
 </html>
