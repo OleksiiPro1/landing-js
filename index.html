@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing page</title>
+</head>
+<body>
+
+<div class="header">
+<div class="header-button">
+		<button class="schedule-button-top">
+		Schedule your visit
+		</button>
+</div>
+<div class="topnav" id="myTopnav">
+	<div>
+	<img class="style-img" src="https://www.shareicon.net/data/256x256/2015/11/03/666191_sign_512x512.png" width="80px" height="80px">
+	</div>
+	<ul>
+		<li id="link-to-one">Main</li>
+		<li id="link-to-two">Rooms</li>
+		<li id="link-to-three">About us</li>
+		<li id="link-to-four">Contacts</li>
+	</ul>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+	<i class="fa fa-bars"></i>
+</div>
+	<div class="pic-and-button">
+
+	<button class="schedule-button">
+		Schedule your visit
+	</button>
+
+	</div>
+
+</div>
+<div class="slider">
+	<img src="https://pbs.twimg.com/media/Dp2dOUcU0AAZJp5.jpg" width="100%">
+</div>
+<div class="form-style">
+	<h1>
+		Schedule a tour
+	</h1>
+	<p>We’ll arrange all your tours and excursions before you arrive and meet you at your resort.</p>
+	<p>Kindly fill out the below form and we will respond to your enquiry shortly.</p>
+	<form>
+		<div class="raw">
+			<span>
+	<label for="f-name">Name</label><br>
+	<input type="text" name="f-name">
+			</span>
+			<span class="second-raw">
+	<label for="s-name">Surname</label><br>
+	<input type="text" name="s-name">
+			</span>
+		</div>
+		<div class="raw">
+			<span>
+	<label for="email">Email</label><br>
+	<input type="text" name="email">
+			</span>
+			<span class="second-raw">
+	<label for="phone">Phone</label><br>
+	<input type="text" name="phone">
+			</span>
+			</div>
+	<label for="message">Message</label><br>
+	<textarea name="message" rows="5" cols="47"></textarea>
+	<input type="submit" name="submit" value="Send">
+	</form>
+<br><br><br><br><br><br><br>
+</div>
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+<div id="four"></div>
+
+
+<style type="text/css">
+	body{
+		margin: 0;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.form-style input[type="submit"] {
+		color: red;
+		text-align: center;
+		padding: 10px 20px;
+
+}
+
+	.form-style h1{
+		text-align: center;
+
+	}
+
+	.form-style{
+
+		width: 368px;
+		margin: auto;
+	}
+
+	.second-raw {
+	margin-left: 14px;
+}
+
+	.raw {
+		display: flex;
+		margin-top: 10px;
+	}
+
+	.slider {
+		margin: auto;
+		width: 350px;
+		height: 249px;
+		margin-top: -30px;
+
+		box-shadow: 0px 0px 15px 0px black;
+
+	}
+
+	.pic-and-button button {
+		margin-right: auto;
+		margin-left: auto;
+		height: 40px;
+	}
+
+	.header-button{
+		height: 50px;
+	}
+
+	.pic-and-button {
+		background-image: url(123.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 100%;
+		height: 389px;
+		display: flex;
+		justify-content: center;
+	}
+
+.header-button button {
+margin: 5px;
+
+}
+
+	.header-button {
+		text-align: right;
+
+
+/*		padding-top: 10px;
+		padding-right: 10px;*/
+
+	}
+
+
+	.style-img{
+		margin-left: 40px;
+		float: left;
+		margin-top: -20px;
+		position: absolute;
+
+
+
+	}
+	.topnav {
+		overflow: visible;
+		background-color: #FFFFCC;
+		height: 50px;
+		position: relative;
+
+
+
+	}
+
+	.topnav li {
+		float: left;
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		float:right;
+
+	}
+
+	.topnav ul {
+		list-style-type: none;
+
+	}
+
+	.topnav li:hover {
+		background-color: #ddd;
+		color: gray;
+	}
+
+	.topnav .icon {
+		display: none;
+	}
+
+	.topnav.responsive li {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
+	.schedule-button {
+		margin-top: 180px;
+		padding: 10px;
+		background-color: #FF9999;
+		border-radius: 6px;
+		border: 2px solid #FF6666;
+	}
+
+.schedule-button:hover {
+		margin-top: 180px;
+		padding: 10px;
+		background-color: #FF6666;
+		border-radius: 6px;
+		border: 2px solid #FF9999;
+	}
+.schedule-button-top {
+
+		padding: 10px;
+		background-color: #FDEDEC;
+		border-radius: 6px;
+		border: 2px solid #FDEDEC;
+	}
+	.schedule-button-top:hover {
+
+		padding: 10px;
+		background-color: #FF6666;
+		border-radius: 6px;
+		border: 2px solid #FF9999;
+	}
+</style>
+
+</body>
+</html>
