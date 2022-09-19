@@ -23,7 +23,10 @@ $('#to-about-us').click(function() {
 // Popup
 
 function PopUp() {
-	$("#popup").css("display", "block")
+	$("#popup").css("display", "block");
+  $('input[type=text]').val('');
+  $('textarea').val('');
+
 }
 $('#show-popup').click(function() {
 	PopUp();
@@ -35,3 +38,8 @@ function ClosePopUp(){
 $('#popup').click(function(){
 	ClosePopUp();
 });
+
+// $(form).submit(function(){return false;});
+
+$(document).ready(function($) { $(document).on('submit', '#submit-form', function(event) { event.preventDefault();
+ }); });

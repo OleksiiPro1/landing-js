@@ -44,6 +44,7 @@
 	<h1>Our hotel rooms are bright and spacious.</h1>
   </div>
 	<div class="rooms-pics">
+
 	<div class="pic-styles">
 	<img src="images/room-1.jpg" width="100%">
 	</div>
@@ -53,6 +54,7 @@
 	<div class="pic-styles">
 		<img src="images/room-3.jpg" width="100%">
 	</div>
+
 </div>
 </div>
 <div class="div-form-rooms">
@@ -62,44 +64,64 @@
 	</h1>
 	<p>We will arrange all your tours and excursions before you arrive and meet you at your resort.</p>
 	<p>Kindly fill out the below form and we will respond to your enquiry shortly.</p>
-	<form>
+	<form id="submit-form">
 		<div class="raw">
-			<span>
+			<span class="span-style">
 	<label for="f-name">Name</label><br>
-	<input type="text" name="f-name">
+	<input type="text" name="f-name" id="input-text">
 			</span>
 			<span class="second-raw">
 	<label for="s-name">Surname</label><br>
-	<input type="text" name="s-name">
+	<input type="text" name="s-name"  id="input-text2">
 			</span>
 		</div>
 		<div class="raw">
-			<span>
+			<span class="span-style">
 	<label for="email">Email</label><br>
-	<input type="text" name="email">
+	<input type="text" name="email"  id="input-text3">
 			</span>
 			<span class="second-raw">
 	<label for="phone">Phone</label><br>
-	<input type="text" name="phone">
+	<input type="text" name="phone"  id="input-text4">
 			</span>
 			</div>
 	<label for="message">Message</label><br>
 	<textarea name="message" rows="5" cols="47"></textarea>
-	<!-- <input type="submit" name="submit" value="Send"> -->
-	</form>
-	<div class="popup" id="popup">
-		Thank you for registering!<br>
-	We will contact you shortly
+	<input class="schedule-button-top" id="show-popup" onclick="PopUp" type="submit" name="submit" value="Send">
+	<div class="popup" id="popup" type="submit">
+		<h3>Thank you for registering!</h3>
+		<h3>We will contact you shortly</h3>
 	</div>
+	</form>
+
 	<br>
 </div>
 
-<div class="show-popup">
+<!-- <div class="show-popup">
 	<button class="schedule-button-top" id="show-popup" >Send</button>
 </div>
+</div> -->
+<h1 class="contacts-h1">About us</h1>
+<div class="white-div-about-us"  id="about-us">
+<div class="div1-aboutus"></div>
+<div class="div2-aboutus">
+	<p>Summer Dining</p>
+	<h2>New Flavors</h2>
+<p>Ocean House outdoor dining is open for the season! Experience Dalia by Dantón Valle, bringing bold and refined contemporary Mexican cuisine to Seaside Terrace.</p>
 </div>
-<div class="white-div-about-us"  id="about-us">About us</div>
-<div class="divs" id="contacts">Contacts</div>
+<div>
+
+</div>
+</div>
+<h1 class="contacts-h1">Contacts</h1>
+<div class="contacts" id="contacts">
+
+	<!-- <img class="contacts-pic" src="images/resorts.jpg"  width="100%"> -->
+	<div class="contacts-styles">
+		<h1 class="phone-styles">Phone AT: +4365565563245</h1>
+		<h1>Email: contacts-tours@gmail.com</h1>
+	</div>
+</div>
 
 
 <div class="footer" id="footer">
